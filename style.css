@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+.container{
+    height: 100vh;
+    background-color: rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.microsoft-head{ height: 350px;
+    width: 450px;
+    background-color: white;
+    padding: 10px;
+    flex-wrap: wrap;
+    box-shadow: -2px 3px 18px -5px rgba(0,0,0,0.75);
+   
+
+}
+.microsoft-head img{
+    height: 80px;
+    
+
+}
+.microsoft-head h1{
+    margin-left: 25px;
+    margin-bottom: 20px;
+    font-weight: 550;
+    font-size: 25px;
+    
+}
+.microsoft-head input{width: 350px;
+    border-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.4);
+    padding: 5px;
+    margin-left: 18px;
+    outline: none;
+}
+.link{
+    padding: 10px;
+    margin-left: 10px;
+    
+}
+.link a{
+    text-decoration: none;
+    color: #0067b8;
+}
+.link a:hover{
+     color:  black;
+}
+.account{
+    text-decoration: none;
+    color: #0067b8;
+    margin-left: 18px;
+}
+.account:hover{
+    color: black;
+}
+.btn{
+    width: 500px;
+    padding: 30px;
+    margin-left: 100px;
+}
+.btn button{width: 120px;
+    height: 35px;
+    border: none;
+    
+
+}
+.next-btn{
+    background-color:  #0067b8;
+    color: white;
+}
+.next-btn:hover{
+    background-color: #267fc8;
+}
+.back-btn{
+    background-color: rgba(0,0,0,0.2);
+}
+.back-btn:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+.sign-btn{height: 40px;
+    width: 445px;
+    background-color:white ;
+    border: none;
+    color: black;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: -2px 3px 18px -5px rgba(0,0,0,0.75);
+    
+    
+}
+.sign-btn i{
+    font-size: 20px;
+    margin-right: 10px;
+    
+}
+
+@media(max-width:600px){_
+.container{
+    width: 100%;
+}
+.btn{
+    width: 262px;
+    display: flex;
+    justify-content: flex-end;
+}
+.microsoft-head{height: 100vh;
+    width: 100%;
+    position: relative;
+    
+    
+}
+.back-btn{
+    display: none;
+}
+.sign-btn{
+    width: 350px;
+    height: 60px;
+    box-shadow: none;
+    position: absolute;
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 15px;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+}    
+
